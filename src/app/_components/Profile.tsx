@@ -5,8 +5,8 @@ type Props = {};
 
 const Profile = (props: Props) => {
   return (
-    <div className="bg-red-100 h-full p-4 rounded-xl px-4 shadow-2xl">
-      <div className="flex justify-center items-center pt-4 pb-2">
+    <div className="bg-purple-100 h-full p-4 rounded-xl px-4 shadow-2xl	">
+      <div className="flex justify-center items-center pt-4 pb-2 ">
         <Image
           src="/profile.webp"
           width={500}
@@ -16,14 +16,14 @@ const Profile = (props: Props) => {
         />
       </div>
       <div className="text-center">
-        <h1 className="text-2xl font-bold">Heretic Patitek</h1>
+        <h1 className="text-2xl font-bold">Phongsiri Zaetan</h1>
         <p className="text-base">Software Engineer</p>
       </div>
 
       <div className="py-10 text-center ">" May the force be with you "</div>
-      <div className="p-6 mx-1 xl:mx-6 bg-blue-300 rounded-md">
+      <div className="p-6 mx-1 xl:mx-6 bg-blue-200 rounded-md shadow-md">
         <p>
-          <b>Age:</b> 26
+          <b>Age:</b> 20
         </p>
         <p>
           <b>Status:</b> Single
