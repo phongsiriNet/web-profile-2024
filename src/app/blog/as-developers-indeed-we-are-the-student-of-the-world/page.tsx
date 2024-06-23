@@ -3,7 +3,7 @@ import Link from "next/link";
 
 export default function blog1() {
   return (
-    <main className="container bg-red-100 min-h-screen max-w-none p-24">
+    <main className="container bg-blue-100 min-h-screen max-w-none p-24">
       <div className="container mx-auto px-40">
         <div className="mb-5">
           <Link href="/blog" className="text-sm flex gap-2 items-center">
